@@ -8,6 +8,7 @@ public class MainMenu {
     public static void main(String[] args) throws Exception {
         
         //menu
+        //testando
         System.out.print(
         
         "Bem-vindo(a) à Chocorato! Como podemos ajudar?\n\n" +
