@@ -14,7 +14,5 @@ public class Tela {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        // Rest of your code goes here
     }
 }
