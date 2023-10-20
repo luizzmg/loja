@@ -19,28 +19,29 @@ public class MainMenu {
 
         "Digite a opção desejada: "
         );
-        switch (opcao) {
-        case 1:
-            Compra.menu();
-            break;
-        
-        case 2:
-            Cadastro.menu();
-            break;
-        
-        case 3:
-            Encomenda.menu();
-            break;
-
-        case 4:
-            System.out.println("Você escolheu sair");
-            break;
-
-        default:
-            break;
-        }
 
         opcao = scan.nextByte();
+
+        switch (opcao) {
+            case 1:
+                Compra.menu();
+                break;
+            
+            case 2:
+                Cadastro.menu();
+                break;
+            
+            case 3:
+                Encomenda.menu();
+                break;
+
+            case 4:
+                System.out.println("Você escolheu sair");
+                break;
+
+            default:
+                break;
+            }
 
         } while (opcao < 1 || opcao > 4);
 
