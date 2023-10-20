@@ -11,7 +11,7 @@ public class Compra {
     }
 
     public static void menu() {
-        
+        System.out.println("Menu da compra");
     }
     
     private static void pagar() {

@@ -7,7 +7,8 @@ public class MainMenu {
 
     public static void main(String[] args) throws Exception {
         
-        
+        do {
+
         System.out.print(
         
         "Bem-vindo(a) à Chocorato! Como podemos ajudar?\n\n" +
@@ -19,24 +20,30 @@ public class MainMenu {
 
         "Digite a opção desejada: "
         );
+        switch (opcao) {
+        case 1:
+            Compra.menu();
+            break;
+        
+        case 2:
+            Cadastro.menu();
+            break;
+        
+        case 3:
+            Encomenda.menu();
+            break;
+
+        case 4:
+            System.out.println("Você escolheu sair");
+            break;
+
+        default:
+            break;
+        }
+
         opcao = scan.nextByte();
 
-        switch (opcao) {
-            case 1:
-                Compra.menu();
-                break;
-            
-            case 2:
-                Cadastro.menu();
-                break;
-            
-            case 3:
-                Encomenda.menu();
-                break;
+        } while (opcao < 1 || opcao > 4);
 
-            default:
-                System.out.println("Você escolheu sair");
-                break;
-        }
     }
 }

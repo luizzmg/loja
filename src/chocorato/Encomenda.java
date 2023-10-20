@@ -10,6 +10,6 @@ public class Encomenda {
     }
 
     public static void menu() {
-        Compra.comprar();
+        System.out.println("Menu da encomenda");
     }
 }

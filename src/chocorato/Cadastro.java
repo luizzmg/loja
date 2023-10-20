@@ -9,6 +9,6 @@ public class Cadastro {
         System.out.println("Cadastrando");
     }
     public static void menu() {
-        
+        System.out.println("Menu do cadastro");
     }
 }
