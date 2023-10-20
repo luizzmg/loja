@@ -29,19 +29,16 @@ public class MainMenu {
             case 1:
                 Compra.menu();
                 break;
-            
             case 2:
                 Cadastro.menu();
                 break;
-            
             case 3:
                 Encomenda.menu();
                 break;
-
             case 4:
+                Tela.limpar();
                 System.out.println("Você escolheu sair");
                 break;
-
             default:
                 break;
             }
