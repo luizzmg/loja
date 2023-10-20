@@ -6,7 +6,10 @@ public class MainMenu {
     static byte opcao;
 
     public static void main(String[] args) throws Exception {
-        
+        menu();
+    }
+
+    public static void menu() {
         do{
         System.out.print(
         
@@ -44,6 +47,5 @@ public class MainMenu {
             }
 
         } while (opcao < 1 || opcao > 4);
-
     }
 }
