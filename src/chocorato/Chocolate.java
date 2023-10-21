@@ -20,15 +20,15 @@ public class Chocolate {
     };
 
     static String menu = 
-    "Trufas de chocolate ao leite" +
-    "Trufas de chocolate amargo" +
-    "Bombons recheados com creme de avelã" +
-    "Chocolate branco com morangos desidratados" +
-    "Tabletes de chocolate gourmet" +
-    "Chocolate quente cremoso" +
-    "Chocolate belga" +
-    "Chocolate com amêndoas ou nozes" +
-    "Chocolate com recheio de caramelo";
+    "Trufas de chocolate ao leite\n" +
+    "Trufas de chocolate amargo\n" +
+    "Bombons recheados com creme de avelã\n" +
+    "Chocolate branco com morangos desidratados\n" +
+    "Tabletes de chocolate gourmet\n" +
+    "Chocolate quente cremoso\n" +
+    "Chocolate belga\n" +
+    "Chocolate com amêndoas ou nozes\n" +
+    "Chocolate com recheio de caramelo\n";
     
 
     static float[] precos = 
