@@ -1,17 +1,12 @@
 package chocorato;
-import java.util.Scanner;
+
 public class MainMenu {
-
-    static Scanner scan = new Scanner(System.in);
-    static byte opcao;
-
     public static void main(String[] args) throws Exception {
         menu();
     }
 
     public static void menu() {
-        do{
-        System.out.print(
+        byte opcao = Global.mostrarMenu(
         
         "Bem-vindo(a) à Chocorato! Como podemos ajudar?\n\n" +
 
@@ -21,9 +16,8 @@ public class MainMenu {
         "4 - Sair\n\n" +
 
         "Digite a opção desejada: "
-        );
 
-        opcao = scan.nextByte();
+        , (byte) 4 /* opção máxima disponível */);
 
         switch (opcao) {
             case 1:
@@ -36,13 +30,12 @@ public class MainMenu {
                 Encomenda.menu();
                 break;
             case 4:
-                Tela.limpar();
+                Global.limpar();
                 System.out.println("Você escolheu sair");
                 break;
             default:
                 break;
             }
-
-        } while (opcao < 1 || opcao > 4);
+            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     }
 }
