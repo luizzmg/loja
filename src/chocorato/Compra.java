@@ -37,7 +37,7 @@ public class Compra {
                 Produto.menu(Doce.nomes);
                 break;
             case 3:
-                
+                Produto.menu(Sobremesa.nomes);
                 break;
         
             default:

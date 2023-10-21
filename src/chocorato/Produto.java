@@ -1,7 +1,7 @@
 package chocorato;
 
 public class Produto {
-    public static byte menu(String[] nomes){
+    public static void menu(String[] nomes){
         byte opcao = 0;
 
         System.out.print("Opções disponíveis:\n\n");
@@ -28,14 +28,11 @@ public class Produto {
         }
         else if(opcao == 0){
             Tela.limpar();
-            return opcao;
         }
         else{
             System.out.print("Digite uma opção válida: ");
         }
 
         } while(opcao != 0);
-
-        return opcao;
     }
 }
