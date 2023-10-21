@@ -9,8 +9,11 @@ public class Compra {
     }
 
     public static void menu() {
+        byte opcao;
 
-        byte opcao = Global.mostrarMenu(
+        do{
+
+        System.out.print(
 
             "Menu da compra:\n\n" +
 
@@ -20,15 +23,18 @@ public class Compra {
 
             "Digite a opção desejada: "
 
-        , (byte) 3 /* a opção máxima possível */);
+        );
+
+        opcao = Global.scan.nextByte();
+
+        Tela.limpar();
         
         switch (opcao) {
             case 1:
-                Global.mostrarMenu(Chocolate.menu, Chocolate.ultimaOp);
-                
+                Produto.menu(Chocolate.nomes);
                 break;
             case 2:
-                
+                Produto.menu(Doce.nomes);
                 break;
             case 3:
                 
@@ -37,6 +43,8 @@ public class Compra {
             default:
                 break;
         }
+
+        }while(opcao >= 0);
     }
     
     private static void pagar() {

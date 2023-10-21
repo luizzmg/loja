@@ -9,7 +9,6 @@ public class Global {
 
     //comando pra limpar a tela, que na vdd só afasta o histórico pra cima
     public static void limpar() {
-        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     }
 
     public static byte mostrarMenu(String menu, byte ultimaOp) {
@@ -20,8 +19,6 @@ public class Global {
             System.out.print(menu); 
         
             opcao = scan.nextByte();
-        
-            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
         }
         while(opcao < 0 || opcao > ultimaOp);
