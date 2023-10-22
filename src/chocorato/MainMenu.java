@@ -29,7 +29,7 @@ public class MainMenu {
             Compra.menu();
             break;
         case 2:
-            Cadastro.menu();
+            Cadastro.cadastrar();
             break;
         case 3:
             Encomenda.menu();
