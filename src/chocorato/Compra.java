@@ -2,6 +2,13 @@ package chocorato;
 public class Compra {
     public static void main(String[] args) {
         menu();
+        
+        // System.out.print("Digite seu nome: ");
+        // String nomeCliente = Global.scan.nextLine();
+
+        // System.out.print("Digite seu email: ");
+        // String emailCliente = Global.scan.nextLine();
+
     }
 
     public static void comprar() {
