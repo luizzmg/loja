@@ -7,15 +7,13 @@ public class Cadastro {
 
     public static Cliente cadastrar() {
 
-        Global.scan.next();
-
         System.out.println("Menu do cadastro\n");
 
         System.out.print("Digite seu nome: ");
-        String nomeCliente = Global.scan.nextLine();
+        String nomeCliente = Global.scan.next();
 
         System.out.print("Digite seu email: ");
-        String emailCliente = Global.scan.nextLine();
+        String emailCliente = Global.scan.next();
 
         Cliente cliente = new Cliente(nomeCliente, emailCliente);
 

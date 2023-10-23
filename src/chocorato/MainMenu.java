@@ -3,19 +3,20 @@ package chocorato;
 public class MainMenu {
     public static void main(String[] args) throws Exception {
         Tela.limpar();
-        Carrinho carrinho = new Carrinho();
         menu();
     }
 
     public static void menu() {
 
+        Carrinho carro = new Carrinho();
+
         byte opcao = Global.mostrarMenu(
         
         "Bem-vindo(a) à Chocorato! Como podemos ajudar?\n\n" +
 
-        "1 - Comprar Doces/Chocolates\n" +
+        "1 - Comprar Doces e/ou Chocolates\n" +
         "2 - Criar Cadastro na loja\n" +
-        "3 - Encomendar doces/chocolates para data futura\n" +
+        "3 - Encomendar doces e/ou chocolates para data futura\n" +
         "4 - Sair\n\n" +
 
         "Digite a opção desejada: "
