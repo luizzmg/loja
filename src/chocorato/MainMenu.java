@@ -8,6 +8,8 @@ public class MainMenu {
 
     public static void menu() {
 
+        //comentario de alicia
+
         Carrinho carro = new Carrinho();
 
         byte opcao = Global.mostrarMenu(
