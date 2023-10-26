@@ -6,27 +6,25 @@ public class Chocolate {
    
     static String[] nomes = 
     {
-        "Trufas de chocolate ao leite",
-        "Trufas de chocolate amargo",
-        "Bombons recheados com creme de avelã",
-        "Chocolate branco com morangos desidratados",
-        "Tabletes de chocolate gourmet",
-        "Chocolate quente cremoso",
-        "Chocolate belga",
-        "Chocolate com amêndoas ou nozes",
-        "Chocolate com recheio de caramelo"
+        "Trufa de chocolate ao leite",
+        "Trufa de chocolate amargo",
+        "Bombom recheado com creme de avelã",
+        "Chocolate Belga em formatos cúbicos",
+        "Tablete de chocolate gourmet",
+        "Tablete de chocolate branco com morangos desidratados",
+        "Tablete de chocolate com amêndoas ou nozes",
+        "Tablete de Chocolate com recheio de caramelo"
     };
 
     static float[] precos = 
-    {
-        4,10,
-        20,
-        30,
-        40,
-        50,
-        60,
-        70,
-        80,
-        90,
+    { 
+        3,50,
+        3,50,
+        2,10,
+        4,50,
+        9,89,
+        8,98,
+        8,98,
+        8,98
     };
 }
