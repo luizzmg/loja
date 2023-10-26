@@ -19,7 +19,7 @@ public class Chocolate {
 
     static float[] precos = 
     {
-        4.10,
+        4,10,
         20,
         30,
         40,
