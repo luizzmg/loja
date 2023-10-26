@@ -15,13 +15,15 @@ public class Compra {
 
         System.out.print(
 
+              "------------------------\n" +
             "Menu da compra:\n\n" +
 
             "1 Chocolates\n" +
             "2 Doces\n" +
             "3 Sobremesas\n\n" +
-
-            "Digite a opção desejada: "
+                    "------------------------\n" +
+            "Digite a opção desejada:\n" +
+                "------------------------\n"
 
         );
 
@@ -41,6 +43,7 @@ public class Compra {
                 break;
         
             default:
+                System.out.println("Ops! Opção errada\n Tente novamente.");
                 break;
         }
 
