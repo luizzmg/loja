@@ -19,7 +19,7 @@ public class MainMenu {
 
         "1 - Comprar Doces e/ou Chocolates\n" +
         "2 - Criar Cadastro na loja\n" +
-        "3 - Encomendar doces e/ou chocolates para data futura\n"+
+        "3 - Encomendar doces e/ou chocolates\n"+
         "4 - Sair\n\n" +
                         "------------------------\n"+
         "Digite a opção desejada:\n"+
