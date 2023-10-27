@@ -4,7 +4,6 @@ import java.util.Map;
 
 public class Carrinho {
     static Map<String, Float> produtos = new HashMap<>();
-
     float totalCompra;
 
     public static void main(String[] args) {

@@ -2,15 +2,17 @@ package chocorato;
 
 public class MainMenu {
     public static void main(String[] args) throws Exception {
-        Tela.limpar();
-        menu();
+        //Tela.limpar();
+        //menu();
+        System.out.println(Chocolatinho.AO_LEITE.preco);
+        System.out.println(Chocolatinho.SETENTA_PORTCENTO.preco);
     }
 
     public static void menu() {
-
+        
         //comentario de alicia
 
-        Carrinho carro = new Carrinho();
+   
 
         byte opcao = Global.mostrarMenu(
         
