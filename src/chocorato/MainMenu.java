@@ -3,9 +3,9 @@ package chocorato;
 public class MainMenu {
     public static void main(String[] args) throws Exception {
         //Tela.limpar();
-        //menu();
-        System.out.println(Chocolatinho.AO_LEITE.preco);
-        System.out.println(Chocolatinho.SETENTA_PORTCENTO.preco);
+        menu();
+        // System.out.println(Chocolatinho.AO_LEITE.preco);
+        // System.out.println(Chocolatinho.SETENTA_PORTCENTO.preco);
     }
 
     public static void menu() {
